@@ -1,9 +1,4 @@
 import numpy as np
-seed = 69
-np.random.seed(seed)
-from tensorflow.random import set_seed
-set_seed(69)
-
 from tensorflow import keras
 from tensorflow.keras.models import Sequential
 import matplotlib.pyplot as plt
