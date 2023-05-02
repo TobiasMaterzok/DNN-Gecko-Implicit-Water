@@ -2,7 +2,7 @@
 
 This repository contains a Python script that uses a neural network to predict anisotropic force field bond coefficients based on target Young's Modulus and Poisson's ratio.
 
-This network was used in the article: [Materzok et al., Small 2023]([https://www.google.com](https://onlinelibrary.wiley.com/doi/full/10.1002/smll.202206085))
+This network was used in the article: [Materzok et al., Small 2023](https://onlinelibrary.wiley.com/doi/full/10.1002/smll.202206085)
 
 ## Description
 
