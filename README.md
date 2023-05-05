@@ -1,8 +1,11 @@
 # DNN-Gecko-Implicit-Water
 
-This repository contains a Python script that uses a neural network to predict anisotropic force field bond coefficients based on target Young's Modulus and Poisson's ratio.
+This repository contains the Python code for predicting the Young's modulus (YM) and Poisson's ratio (PR) values of a mesoscale gecko spatula model using a custom Keras neural network model as a function of anisotropic force field bond coefficients. The spatula model is based on microscopical information about spatulae structure and atomistic molecular simulation results. The neural network model parameters were determined through hyperparameter grid search during the training phase.
 
-This network was used in the article: [Materzok et al., Small 2023](https://onlinelibrary.wiley.com/doi/full/10.1002/smll.202206085)
+# Publication
+
+The research related to this code is published in the paper:
+[Gecko Adhesion on Flat and Rough Surfaces: Simulations with a Multi-Scale Molecular Model](https://onlinelibrary.wiley.com/doi/full/10.1002/smll.202206085)
 
 ## Description
 
