@@ -2,20 +2,20 @@
 
 ## Technology Highlights:
 
-The DNN-Gecko-Implicit-Water project is a Python-based repository that uses a custom Keras neural network models for predicting material properties of a mesoscale molecular model. The code uses TensorFlow and Keras for building the neural network architectures, it includes a Gaussian noise layers and popular activation functions. The project leverages NumPy, Matplotlib, and SciPy for efficient data processing and visualization, and Scikit-learn for model evaluation. We apply state-of-the-art machine learning techniques to a complex multiscale modeling problem to quickly yield molecular dynamics model parameters to target mechanical properties of wetted gecko spatulae.
+The DNN-Gecko-Implicit-Water project is a Python-based repository that uses a custom Keras neural network model for predicting material properties of a mesoscale molecular gecko spatula model. The code uses TensorFlow and Keras for building the neural network architectures. it includes Gaussian noise layers. The project leverages NumPy, Matplotlib, and SciPy for efficient data processing and visualization, and Scikit-learn for model evaluation. We apply state-of-the-art machine learning techniques to a complex multiscale modeling problem to quickly yield molecular dynamics model parameters to target mechanical properties of wetted gecko spatulae.
 
 ## Overview
 
-This repository contains the Python code for predicting the Young's modulus (YM) and Poisson's ratio (PR) values of a mesoscale gecko spatula model using a custom Keras neural network model as a function of anisotropic force field bond coefficients. The spatula model is based on microscopical information about spatulae structure and atomistic molecular simulation results. The neural network model parameters were determined through hyperparameter grid search during the training phase.
+This repository contains the Python code for predicting the Young's modulus (YM) and Poisson's ratio (PR) values of a mesoscale gecko spatula model as a function of anisotropic force field bond coefficients. The spatula model is based on microscopical information about spatulae structure and atomistic molecular simulation results. The neural network model parameters were determined through hyperparameter grid search during the training phase, yielding Gaussian noise layers against overfitting, selu activation functions, number of neurons and number of layers, and the loss function.
 
 # Publication
 
-The research related to this code is published in the paper:
-- [Gecko Adhesion on Flat and Rough Surfaces: Simulations with a Multi-Scale Molecular Model](https://onlinelibrary.wiley.com/doi/full/10.1002/smll.202206085)
+The research related to this code are published in the papers:
+ 1. [Gecko Adhesion on Flat and Rough Surfaces: Simulations with a Multi-Scale Molecular Model](https://onlinelibrary.wiley.com/doi/full/10.1002/smll.202206085)
 
 In this original work, a multiscale modeling approach is used to develop a particle-based mesoscale gecko spatula model to study the detachment of spatulae from flat and nanostructured surfaces. The model successfully reproduces experimental pull-off forces and provides insights into the adhesion mechanism.
 
-- [Understanding Humidity-Enhanced Adhesion of Geckos: Deep Neural Network-Assisted Multi-Scale Molecular Modeling](https://doi.org/10.1002/smll.202206085)
+ 2. [Understanding Humidity-Enhanced Adhesion of Geckos: Deep Neural Network-Assisted Multi-Scale Molecular Modeling](https://doi.org/10.1002/smll.202206085)
 
 
 ## Description
